@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test tut.by" verbose="1">
+    <parameter name = "itemMenu" value = "Работа"/>
+    <parameter name = "textSearch" value = "Специалист по тестированию"/>
+    <test name="Test" preserve-order="true">
+        <classes>
+            <class name="test.PageTest"/>
+        </classes>
+    </test>
+</suite>
